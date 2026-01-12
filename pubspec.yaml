@@ -1,5 +1,7 @@
 name: internet_checker_plus
-description: "A new Flutter plugin project."
+description: "A Flutter plugin to detect real internet availability and measure connection stability
+(poor, unstable, warn, stable) using latency and network behavior instead of just
+Wi-Fi or mobile status."
 version: 1.0.0
 homepage: "https://github.com/sajibsaha4647/internet_checker_plus.git"
 
