@@ -57,7 +57,27 @@ For more information, see the [Flutter Networking Documentation](https://docs.fl
 `````
 final level = await InternetCheckerPlus.check();
 
-if (level == InternetLevel.unstable) {
+if (level != InternetLevel.offline) { // internet connectioned 
+  print('internet connected');
+}
+
+if (level != InternetLevel.stable) { //stable internet connectioned 
+  print('stable internet connected');
+}
+
+if (level == InternetLevel.offline) { //No internet connection 
+  print('No internet');
+}
+
+if (level == InternetLevel.warn) { //warn internet connectioned 
+  print('warn internet');
+}
+
+if (level == InternetLevel.poor) { //poor internet connectioned 
+  print('poor internet');
+}
+
+if (level == InternetLevel.unstable) { //unstable internet connectioned 
   // handle unstable internet
 }
 
