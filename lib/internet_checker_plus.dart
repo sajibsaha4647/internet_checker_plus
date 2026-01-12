@@ -3,6 +3,7 @@ import 'dart:io';
 
 import 'internet_level.dart';
 
+
 class InternetCheckerPlus {
   static const _host = 'google.com';
   static const _port = 443;
