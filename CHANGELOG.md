@@ -5,4 +5,5 @@
 
 ```md
 ## 1.0.0
-- Initial release.
+- Initial release
+- Internet connection and stability level detection
