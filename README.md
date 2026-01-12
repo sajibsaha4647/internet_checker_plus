@@ -1,8 +1,15 @@
 # internet_checker_plus
 
-Check real internet connection and stability level.
+# internet_checker_plus
+
+A lightweight Flutter plugin to check **real internet connectivity** and **connection stability level** in real time.
+Unlike basic connectivity checkers, `internet_checker_plus` measures **actual network usability** and classifies the connection into clear stages:
+**offline**, **poor**, **unstable**, **warn**, and **stable**.
+This helps apps prevent failed API calls, dropped calls, and poor user experiences by reacting **before** the network becomes unusable.
+
 
 ## Features
+- Check internet connections
 - Detects offline internet
 - Measures latency & jitter
 - Connection levels:
@@ -83,7 +90,7 @@ Feel free to open an issue or submit a pull request.
 
 ## Example App
 
-Check out the [example](https://github.com/sajibsaha4647/background_permission_checker.git) directory for a complete working app.
+Check out the [example](https://github.com/sajibsaha4647/internet_checker_plus.git) directory for a complete working app.
 
 ## License
 
@@ -95,5 +102,5 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Support
 
-If you find this package helpful, please give it a ⭐ on [GitHub](https://github.com/sajibsaha4647/background_permission_checker.git)!
+If you find this package helpful, please give it a ⭐ on [GitHub](https://github.com/sajibsaha4647/internet_checker_plus.git)!
 EOF
