@@ -1,7 +1,5 @@
 # internet_checker_plus
 
-# internet_checker_plus
-
 A lightweight Flutter plugin to check **real internet connectivity** and **connection stability level** in real time.
 Unlike basic connectivity checkers, `internet_checker_plus` measures **actual network usability** and classifies the connection into clear stages:
 **offline**, **poor**, **unstable**, **warn**, and **stable**.
