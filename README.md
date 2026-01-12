@@ -36,7 +36,22 @@ Import:
 import 'package:internet_checker_plus/internet_checker_plus.dart';
 
 ````
+## Permissions
+Android
+Add the following permission to your `AndroidManifest.xml`:
+```
+<uses-permission android:name="android.permission.INTERNET" />
 
+```
+
+macOS
+Add the following to your macOS   `.entitlements` files:
+
+````
+<key>com.apple.security.network.client</key>
+<true/>
+````
+For more information, see the [Flutter Networking Documentation](https://docs.flutter.dev/data-and-backend/networking) .
 ## Usage Example
 
 `````
